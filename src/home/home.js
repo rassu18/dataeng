@@ -9,9 +9,9 @@ function Home() {
         <div className="homeimage">
           <div className="row container textmargin">
             <div className="col-md-6 margintop">
-              <p className="textfont">Digital Done Right</p>
+              <p className="textfont">Your Data, Our Expertise</p>
               <h2 className="textcolor">
-                Helping clients win the digital landscape
+                Powering Businesses through expert Data Engineering
               </h2>
             </div>
           </div>

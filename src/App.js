@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import About from "./pages/about.js";
 import Contact from "./pages/contact.js";
 import Home from "./pages/home.js";
@@ -15,6 +15,7 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/dataInside" element={<DataInside />}></Route>
+        <Route path="/*" element={<Navigate to="/" />}></Route>
       </Routes>
       <footer className="py-3 my-4">
         <ul className="nav justify-content-center border-bottom pb-3 mb-3">

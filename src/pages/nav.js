@@ -14,8 +14,11 @@ return(
         <span></span>
          </div>
        <ul className={menuOpen? "open": ""}>
-        <li>
+        <li className="nav-item dropdown">
             <NavLink to='/' >Digital Engineering Services</NavLink>
+            <div className="dropdown-menu">
+        <NavLink to='/dataInside' className='dropdown-item'>Data Insights</NavLink>
+        </div>
         </li>
         <li>
             <NavLink to='/about'>About</NavLink>

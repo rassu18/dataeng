@@ -11,7 +11,7 @@ function DataInside() {
               Engineer robust data foundation to drive your business with actionable and accurate insights.
               </h2>
               <div>
-                <button className="btn btn-primary ">Schedule a Discussion</button>
+                <button className="btn btn-success dataInsidebtn">Schedule a Discussion</button>
             </div>
             </div>
             

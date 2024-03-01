@@ -35,7 +35,7 @@ nav ul li a{
     display: block;
     text-decoration: none;
     color: #ffffff;
-    padding: 2.5rem;
+    padding: 0.5rem;
     margin: 0 0.5rem;
     border-radius: 0.5rem;
 }
@@ -56,6 +56,26 @@ nav .menu span{
     width: 100%;
     background-color: #ffffff;
     border-radius: 0.2rem;
+}
+.dropdown{
+    position: relative;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
 }
 
 @media (max-width: 480px) {

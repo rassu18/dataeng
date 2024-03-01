@@ -17,17 +17,17 @@
   background-size: cover;
   /* background-repeat: repeat; */
   background-color: rgba(0, 0, 0, 0);
-  background-image: url(./images/DataInsights-Services.jpg);
+  background-image: url(./images/home4.jpg);
   background-attachment: scroll;
   min-width: 100%;
-/*   height: 500px; */
+  /* height: 800px; */
 }
 .textmargin {
   margin-left: 10px;
 }
 .dataInsidetextfont{
   font-size: 42px;
-  color: #000000;
+  color: #FFFFFF;
   line-height: 50px;
   font-family: Open Sans;
   font-weight: 600;
@@ -46,11 +46,14 @@
   font-weight: 300;
   font-size: 20px;
   line-height: 40px;
-  color: #000000;
+  color: #FFFFFF;
 }
 .dataInsidebgcolor{
   background-color: #005c97 !important;
   color: #ffffff;
+}
+.dataInsidebtn{
+margin-bottom: 15px;
 }
 .textcolor {
   font-family: Open Sans, sans-serif;

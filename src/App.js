@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import About from "./pages/about.js";
 import Contact from "./pages/contact.js";
 import Home from "./pages/home.js";

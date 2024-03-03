@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate, NavLink } from "react-router-dom";
 import About from "./pages/about.js";
 import Contact from "./pages/contact.js";
 import Home from "./pages/home.js";
@@ -20,20 +20,12 @@ function App() {
       <footer className="py-3 my-4">
         <ul className="nav justify-content-center border-bottom pb-3 mb-3">
           <li className="nav-item">
-            <a href="/" className="nav-link px-2 ">
-              Home
-            </a>
+          <NavLink className="mx-2" to="/">Home</NavLink>
           </li>
-          <li className="nav-item">
-            <a href="/about" className="nav-link px-2 ">
-              About
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="/contact" className="nav-link px-2">
-              Contact
-            </a>
-          </li>
+         <li>
+           <NavLink   className="mx-2" to="/about">About</NavLink></li>
+           <li>
+           <NavLink  className="mx-2" to="/contact">Contact</NavLink></li>
         </ul>
         <p className="text-center text-muted">© 2023 Company, Inc</p>
       </footer>

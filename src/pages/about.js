@@ -3,6 +3,7 @@ import React from "react";
 function About() {
   return (
     <div className="container contentTop">
+    <div className="contacttext mb-2">About US</div>
       <div className="col-md-12">
         <p>
           Digital engineering refers to the use of digital technologies,

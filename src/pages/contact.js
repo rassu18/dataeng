@@ -4,7 +4,7 @@ import "../App.css";
 function Contact() {
   return (
     <div>
-      <div className="contacttext">Contact Us</div>
+      <div className="contacttext">Contact US</div>
       <div className="container mb-4">
         We are there to assist! Whether you have questions, need assistance, or
         want to provide feedback, contacting us is simple. Use the information

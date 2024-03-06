@@ -14,7 +14,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="row">
+      <div className="container">
         <div className="col-md-12 marginclient">
           <h1>Client Speak</h1>
           <h4>

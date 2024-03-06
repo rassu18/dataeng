@@ -1,5 +1,8 @@
 import React from "react";
 import myImage from '../images/home1.jpg';
+import myImage1 from '../images/home2.jpg';
+import myImage2 from '../images/home3.jpg';
+import myImage3 from '../images/hero.jpg';
 function DataInside() {
   return (
     <div>
@@ -92,16 +95,17 @@ function DataInside() {
 </div>
 <div className="col-md-3 ">
       <div className="card">
-  <img src={myImage} className="card-img-top" alt="..." />
+  <img src={myImage3} className="card-img-top" alt="..." />
   <div className="card-body">
-  <h5 className="card-title">Advisory Services and Consulting</h5>
+  <h5 className="card-title">Information Technology</h5>
     <p className="card-text">
       <ul>
         <li>
-        Data quality assessment</li>
-        <li>Tool evaluation, and building prototypes.</li>
-        <li>Data planning and strategy</li>
-        <li>AIML strategy</li>
+        Back Log Preparation</li>
+        <li>Data Platform Modernization</li>
+        <li>Data Pipeline Enablement</li>
+        <li>Data Governance and Management</li>
+        <li>Data Migration</li>
       </ul>
     </p>
   </div>
@@ -109,16 +113,15 @@ function DataInside() {
 </div>
 <div className="col-md-3">
       <div className="card">
-  <img src={myImage} className="card-img-top" alt="..." />
+  <img src={myImage2} className="card-img-top" alt="..." />
   <div className="card-body">
-  <h5 className="card-title">Advisory Services and Consulting</h5>
+  <h5 className="card-title">Information Visualisation</h5>
     <p className="card-text">
       <ul>
         <li>
-        Data quality assessment</li>
-        <li>Tool evaluation, and building prototypes.</li>
-        <li>Data planning and strategy</li>
-        <li>AIML strategy</li>
+        Dashboards for Self-Service</li>
+        <li>Reporting in real time</li>
+        <li>High volume reporting of data</li>
       </ul>
     </p>
   </div>
@@ -126,16 +129,16 @@ function DataInside() {
 </div>
 <div className="col-md-3">
       <div className="card">
-  <img src={myImage} className="card-img-top" alt="..." />
+  <img src={myImage1} className="card-img-top" alt="..." />
   <div className="card-body">
-  <h5 className="card-title">Advisory Services and Consulting</h5>
+  <h5 className="card-title">AI</h5>
     <p className="card-text">
       <ul>
         <li>
-        Data quality assessment</li>
-        <li>Tool evaluation, and building prototypes.</li>
-        <li>Data planning and strategy</li>
-        <li>AIML strategy</li>
+        Model Development</li>
+        <li>Data Annotation</li>
+        <li>Model Validation </li>
+        <li>MLOps</li>
       </ul>
     </p>
   </div>

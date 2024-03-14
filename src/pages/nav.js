@@ -6,7 +6,7 @@ export const Navbar = () => {
   return (
     <nav>
       <Link to="/" className="title">
-        DigiSite
+        RC Consulting
       </Link>
       <div
         className="menu"

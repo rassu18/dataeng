@@ -33,7 +33,7 @@ function Home() {
 
 With honesty, reliability, and compassion serving as our guiding principles, we deliver predictable results to the final customer. which serve as the foundation for the digitally resilient businesses we assist our clients in creating.
            </div>
-           <div className="readmore">
+           <div className="col mt-4">
                 <button className="btn btn-warning dataInsidebtn">Read More</button>
             </div>
           </div>

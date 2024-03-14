@@ -14,15 +14,15 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="container">
-        <div className="col-md-12 marginclient">
-          <h1>Client Speak</h1>
-          <h4>
-            Senior IT leaders share how our services helped them win in the
-            platform age.
-          </h4>
-        </div>
-      </div>
+      // <div className="container">
+      //   <div className="col-md-12 marginclient">
+      //     <h1>Client Speak</h1>
+      //     <h4>
+      //       Senior IT leaders share how our services helped them win in the
+      //       platform age.
+      //     </h4>
+      //   </div>
+      // </div>
 
       <div className="container-fluid dataInsidebgcolor mt-5">
         <div className="col-md-12 marginclient">

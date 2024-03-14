@@ -3,7 +3,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    height: 100px;
+/*     height: 100px; */
     position: sticky;
     top: 0px;
     z-index: 100;
@@ -57,7 +57,7 @@ nav .menu {
 nav .menu span {
     height: 0.4rem;
     width: 100%;
-    background-color: #ffffff;
+    background-color: black;
     border-radius: 0.2rem;
 }
 
@@ -103,7 +103,7 @@ nav .menu span {
 
     nav ul.open {
         display: flex;
-        background-color: #0f172a;
+/*         background-color: #0f172a; */
     }
 
     nav ul {
